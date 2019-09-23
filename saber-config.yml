@@ -1,0 +1,20 @@
+theme: minima
+
+siteConfig:
+    title: Vue Challenge
+    url: https://netmedia.de
+    description: netmedia Vue.js Coding Challenge
+
+themeConfig:
+    nav:
+        - text: Herausforderung
+          link: /
+        - text: Hinweise
+          link: /notes.html
+        - text: Aufgabe
+          link: /workbench.html
+    social:
+        - dribbble:
+
+plugins:
+    - resolve: saber-plugin-prismjs

@@ -1,0 +1,23 @@
+{
+	"name": "vue-challenge-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "saber",
+		"build": "saber build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"buefy": "^0.8.4",
+		"bulma-slider": "^2.0.0",
+		"prismjs": "^1.17.1",
+		"saber-plugin-prismjs": "^0.2.3"
+	},
+	"devDependencies": {
+		"saber": "latest",
+		"saber-theme-minima": "latest"
+	}
+}
