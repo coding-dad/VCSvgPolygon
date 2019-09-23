@@ -23,8 +23,8 @@ theFunction() {
 	const angle = (Math.PI * 2) / this.numPoints;
 
 	for (let a = 0; a < Math.PI * 2; a += angle) {
-		let x = 250 + Math.cos(a) * radius;
-		let y = 250 + Math.sin(a) * radius;
+		const x = 250 + Math.cos(a) * radius;
+		const y = 250 + Math.sin(a) * radius;
 		points.push(`${x}, ${y}`);
 	}
 
