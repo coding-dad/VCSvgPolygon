@@ -17,7 +17,7 @@ Erweitere die Funktionalität in der Datei `components/Challenge.vue` dahingehen
 Gegeben sei dabei die Funktion zum Berechnen des Polygons basierend auf der Anzahle der Kreispunkte
 
 ```js
-myPolygon() {
+theFunction() {
 	const points = [];
 	const radius = 125;
 	const angle = (Math.PI * 2) / this.numPoints;
