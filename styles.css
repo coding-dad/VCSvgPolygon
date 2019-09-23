@@ -6,3 +6,10 @@
 .page-link.router-link-exact-active {
 	border-bottom: 2px solid orange;
 }
+
+/* fixing weired number styling... */
+.token.number {
+	background-color: inherit;
+	display: inherit;
+	font-size: inherit;
+}

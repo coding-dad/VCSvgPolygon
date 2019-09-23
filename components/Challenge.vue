@@ -5,12 +5,11 @@
 		</svg>
 		{{numPoints}}
 		<input
-			v-model="numPoints"
 			class="slider is-fullwidth is-lage is-circle is-info"
 			step="1"
 			min="3"
 			max="69"
-			value="3"
+			value="8"
 			type="range"
 		/>
 	</div>
@@ -21,24 +20,10 @@ export default {
 	name: "Challenge",
 
 	data: () => ({
-		numPoints: 3
-	}),
-
-	computed: {
-		myPolygon() {
-			const points = [];
-			const radius = 125;
-			const angle = (Math.PI * 2) / this.numPoints;
-
-			for (let a = 0; a < Math.PI * 2; a += angle) {
-				let x = 250 + Math.cos(a) * radius;
-				let y = 250 + Math.sin(a) * radius;
-				points.push(`${x}, ${y}`);
-			}
-
-			return points.join(" ");
-		}
-	}
+		numPoints: 8,
+		myPolygon:
+			"375, 250 338, 338 250, 375 161, 338 125, 250 161, 161 249, 125 338, 161"
+	})
 };
 </script>
 
